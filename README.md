@@ -37,4 +37,10 @@ kafka-console-consumer --topic my-new-topic --bootstrap-server localhost:9092 --
 
 
 
+#Consumer Group
 kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group my-consumer-group
+
+
+#Describe topics
+
+kafka-topics --describe --topic my-new-topic-3 --bootstrap-server localhost:9092
