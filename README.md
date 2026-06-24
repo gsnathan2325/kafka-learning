@@ -33,7 +33,7 @@ KafkaProducer
 kafka-console-producer --topic my-new-topic --bootstrap-server localhost:9092
 
 KafkaConsumer
-kafka-console-consumer --topic my-new-topic --bootstrap-server localhost:9092 --group my-consumer-group --from-begining
+kafka-console-consumer --topic my-new-topic --bootstrap-server localhost:9092 --group my-consumer-group --from-beginning
 
 
 
